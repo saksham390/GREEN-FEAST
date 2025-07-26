@@ -3,10 +3,10 @@
  (SAKSHAM,SHIVAM CHOUBEY,LUV AGNIHOTRI)
 
 WORKING:
-1 AI Image Analysis– Identifies leftover food in thali 
-2 Weight Estimation – Calculates wasted quantity (grams).   
-3 Auto-Penalty – Charges guests via UPI if waste exceeds limit.   
-4 Social Impact–Donates fines to charity. 
+1) AI Image Analysis– Identifies leftover food in thali 
+2) Weight Estimation – Calculates wasted quantity (grams).   
+3) Auto-Penalty – Charges guests via UPI if waste exceeds limit.   
+4) Social Impact–Donates fines to charity. 
 
     A[Camera Input] --> B{Face Detection}
     B -->|Detected| C[Person Identification]
