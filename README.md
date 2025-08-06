@@ -1,6 +1,5 @@
  GREEN FEAST-AI-Powered Food Waste Tracking & Penalty System to Reduce Food Wastage 
- Prepared By:TEAM NEUROVIA
- (SAKSHAM,SHIVAM CHOUBEY,LUV AGNIHOTRI)
+
 
 WORKING:
 1) AI Image Analysis– Identifies leftover food in thali 
