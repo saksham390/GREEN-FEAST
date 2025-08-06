@@ -1,13 +1,13 @@
 import cv2
 import numpy as np
-import os  # Added missing import
+import os  
 import time
 import qrcode
 from twilio.rest import Client
 import mediapipe as mp
 from ultralytics import YOLO
 
-# ======== Configuration ========
+
 # Face Recognition
 KNOWN_FACES_DIR = "known_faces"
 FACE_TOLERANCE = 0.6
@@ -17,12 +17,12 @@ FOOD_DENSITY = {"rice": 0.02, "roti": 0.03, "curry": 0.015, "dal": 0.01}
 FINE_RATE = 0.10  # ₹0.10 per gram
 MIN_WASTE_THRESHOLD = 50  # Minimum 50g waste to trigger fine
 
-# Twilio Setup (replace with your credentials)
+# Twilio Setup 
 TWILIO_SID = "AC1f22ae3dd9af5573f71e8dd567434a41"
 TWILIO_TOKEN = "78500f750c6cf777fb4960d97792f887"
 TWILIO_NUMBER = "+12524659622"
 
-# ======== Initialize Systems ========
+
 # MediaPipe for Face Recognition
 mp_face = mp.solutions.face_detection
 face_detector = mp_face.FaceDetection(min_detection_confidence=0.5)
